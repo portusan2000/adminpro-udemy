@@ -11,6 +11,7 @@ export class GraficoDonaComponent implements OnInit {
  @Input( 'ChartData' ) doughnutChartData: number[] = [];
  @Input( 'ChartType' ) doughnutChartType: string = '';
 
+ 
   constructor() { }
 
   ngOnInit() {

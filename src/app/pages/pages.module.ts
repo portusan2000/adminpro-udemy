@@ -19,6 +19,8 @@ import { PAGES_ROUTES } from './pages.routes';
 
 // ng2-charts Module
 import { ChartsModule } from 'ng2-charts';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ChartsModule } from 'ng2-charts';
     Graficas1Component,
     IncrementadorComponent,
     GraficoDonaComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromesasComponent,
+    RxjsComponent
   ],
   imports: [
     CommonModule,

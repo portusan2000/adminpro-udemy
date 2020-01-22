@@ -11,7 +11,7 @@ import { RegisterComponent } from './login/register.component';
 
 // Módulos Importados
 import { PagesModule } from './pages/pages.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ServiceModule } from './services/service.module';
 
 @NgModule({
@@ -26,7 +26,9 @@ import { ServiceModule } from './services/service.module';
     APP_ROUTES,
     PagesModule,
     FormsModule,
+    ReactiveFormsModule,
     ServiceModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

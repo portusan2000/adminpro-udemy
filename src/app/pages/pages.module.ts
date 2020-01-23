@@ -22,6 +22,11 @@ import { ChartsModule } from 'ng2-charts';
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
 
+// Pipe Module
+import { PipesModule } from '../pipes/pipes.module';
+import { ProfileComponent } from './profile/profile.component';
+
+
 @NgModule({
   declarations: [
     PagesComponent,
@@ -32,7 +37,8 @@ import { RxjsComponent } from './rxjs/rxjs.component';
     GraficoDonaComponent,
     AccountSettingsComponent,
     PromesasComponent,
-    RxjsComponent
+    RxjsComponent,
+    ProfileComponent
   ],
   imports: [
     CommonModule,
@@ -40,6 +46,7 @@ import { RxjsComponent } from './rxjs/rxjs.component';
     FormsModule,
     ChartsModule,
     PAGES_ROUTES,
+    PipesModule
   ],
   exports: [
     DashboardComponent,
